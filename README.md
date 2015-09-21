@@ -9,6 +9,16 @@ This is based on underscore's [implementation](https://github.com/jashkenas/unde
 
 ## Usage
 
+Debounce-collect is available as an npm package.
+
+```js
+var debounce = require('debounce-collect')
+```
+
+When used outside a CommonJS environment, it's accessible as `global.debounceCollect`.
+
+## Description
+
 ```js
 debounce(function, wait, [immediate])
 ```
