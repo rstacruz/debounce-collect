@@ -3,9 +3,9 @@
 An implementation of debounce. Unlike [underscore]'s debounce, this one
 collects arguments of all calls.
 
-[underscore]: http://underscorejs.org/
+This is based on underscore's [implementation](https://github.com/jashkenas/underscore/blob/1.8.3/underscore.js#L813-L847) of debounce.
 
-<br>
+[underscore]: http://underscorejs.org/
 
 ## Usage
 
@@ -29,8 +29,6 @@ from firing a second time.
 
 The resulting function will be called with an array of all function arguments
 for all calls.
-
-<br>
 
 ## Example
 
