@@ -1,6 +1,6 @@
 {
   "name": "debounce-collect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Makes a function execute only once in a given interval.",
   "main": "index.js",
   "scripts": {
