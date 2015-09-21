@@ -5,6 +5,8 @@ collects arguments of all calls.
 
 This is based on underscore's [implementation](https://github.com/jashkenas/underscore/blob/1.8.3/underscore.js#L813-L847) of debounce.
 
+[![Status](https://travis-ci.org/rstacruz/debounce-collect.svg?branch=master)](https://travis-ci.org/rstacruz/debounce-collect "See test builds")
+
 [underscore]: http://underscorejs.org/
 
 ## Usage
