@@ -1,12 +1,10 @@
+/* global define */
 void (function (root, factory) {
   if (typeof define === 'function' && define.amd) define(factory)
   else if (typeof exports === 'object') module.exports = factory()
   else root.debounceCollect = factory()
 }(this, function () {
-
   var now = Date.now || function now () { return new Date().getTime() }
-
-  module.exports = debounce
 
   function debounce (func, wait, immediate) {
     var timer, context, timestamp, result
@@ -50,5 +48,6 @@ void (function (root, factory) {
       return result
     }
   }
-    
+
+  return debounce
 })); // eslint-disable-line semi
