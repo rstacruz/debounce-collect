@@ -47,7 +47,7 @@ function update (argsList) {
   // result:
   // [
   //   [ 'change', 'file1.txt' ],
-  //   [ 'change', 'file1.txt' ]
+  //   [ 'change', 'file2.txt' ]
   // ]
 }
 ```
